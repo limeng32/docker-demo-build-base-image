@@ -29,6 +29,6 @@ RUN set -x \
 	&& tar -xvf tomcat.tar.gz --strip-components=1 \
 	&& rm bin/*.bat \
 	&& rm tomcat.tar.gz*
-	
+	 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]	
